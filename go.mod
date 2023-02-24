@@ -3,9 +3,9 @@ module controller-runtime-example
 go 1.13
 
 require (
-	github.com/go-logr/logr v0.1.0
-	k8s.io/api v0.0.0-20190918195907-bd6ac527cfd2
-	k8s.io/apimachinery v0.0.0-20190817020851-f2f3a405f61d
-	k8s.io/client-go v0.0.0-20190918200256-06eb1244587a
+	github.com/go-logr/logr v0.2.0
+	k8s.io/api v0.20.0-alpha.2
+	k8s.io/apimachinery v0.20.0-alpha.2
+	k8s.io/client-go v0.20.0-alpha.2
 	sigs.k8s.io/controller-runtime v0.3.0
 )
